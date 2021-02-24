@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA9619025E6C1270088E8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9618F25E6C1270088E8DC /* AppDelegate.swift */; };
+		DCA9619225E6C1270088E8DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9619125E6C1270088E8DC /* SceneDelegate.swift */; };
+		DCA9619925E6C12A0088E8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA9619825E6C12A0088E8DC /* Assets.xcassets */; };
+		DCA9619C25E6C12A0088E8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA9619A25E6C12A0088E8DC /* LaunchScreen.storyboard */; };
+		DCA961AC25E6C2490088E8DC /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961A425E6C2490088E8DC /* VC3.swift */; };
+		DCA961AD25E6C2490088E8DC /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961A525E6C2490088E8DC /* VC4.swift */; };
+		DCA961AE25E6C2490088E8DC /* KeyboardHandler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961A625E6C2490088E8DC /* KeyboardHandler1.swift */; };
+		DCA961AF25E6C2490088E8DC /* KeyboardHandler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961A725E6C2490088E8DC /* KeyboardHandler2.swift */; };
+		DCA961B025E6C2490088E8DC /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961A825E6C2490088E8DC /* VC2.swift */; };
+		DCA961B125E6C2490088E8DC /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961A925E6C2490088E8DC /* TextViewCell.swift */; };
+		DCA961B225E6C2490088E8DC /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961AA25E6C2490088E8DC /* TextFieldCell.swift */; };
+		DCA961B325E6C2490088E8DC /* VC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961AB25E6C2490088E8DC /* VC1.swift */; };
+		DCA961BC25E6C37E0088E8DC /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA961BB25E6C37E0088E8DC /* UIResponder+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCA9618C25E6C1270088E8DC /* keyboard-handling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keyboard-handling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA9618F25E6C1270088E8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA9619125E6C1270088E8DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCA9619825E6C12A0088E8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA9619B25E6C12A0088E8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA9619D25E6C12A0088E8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA961A425E6C2490088E8DC /* VC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		DCA961A525E6C2490088E8DC /* VC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
+		DCA961A625E6C2490088E8DC /* KeyboardHandler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandler1.swift; sourceTree = "<group>"; };
+		DCA961A725E6C2490088E8DC /* KeyboardHandler2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHandler2.swift; sourceTree = "<group>"; };
+		DCA961A825E6C2490088E8DC /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		DCA961A925E6C2490088E8DC /* TextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		DCA961AA25E6C2490088E8DC /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		DCA961AB25E6C2490088E8DC /* VC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC1.swift; sourceTree = "<group>"; };
+		DCA961BB25E6C37E0088E8DC /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA9618925E6C1270088E8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA9618325E6C1270088E8DC = {
+			isa = PBXGroup;
+			children = (
+				DCA9618E25E6C1270088E8DC /* keyboard-handling */,
+				DCA9618D25E6C1270088E8DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA9618D25E6C1270088E8DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA9618C25E6C1270088E8DC /* keyboard-handling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA9618E25E6C1270088E8DC /* keyboard-handling */ = {
+			isa = PBXGroup;
+			children = (
+				DCA9618F25E6C1270088E8DC /* AppDelegate.swift */,
+				DCA9619125E6C1270088E8DC /* SceneDelegate.swift */,
+				DCA961AB25E6C2490088E8DC /* VC1.swift */,
+				DCA961A825E6C2490088E8DC /* VC2.swift */,
+				DCA961A425E6C2490088E8DC /* VC3.swift */,
+				DCA961A525E6C2490088E8DC /* VC4.swift */,
+				DCA961A625E6C2490088E8DC /* KeyboardHandler1.swift */,
+				DCA961A725E6C2490088E8DC /* KeyboardHandler2.swift */,
+				DCA961AA25E6C2490088E8DC /* TextFieldCell.swift */,
+				DCA961A925E6C2490088E8DC /* TextViewCell.swift */,
+				DCA961BB25E6C37E0088E8DC /* UIResponder+Extension.swift */,
+				DCA9619825E6C12A0088E8DC /* Assets.xcassets */,
+				DCA9619A25E6C12A0088E8DC /* LaunchScreen.storyboard */,
+				DCA9619D25E6C12A0088E8DC /* Info.plist */,
+			);
+			path = "keyboard-handling";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA9618B25E6C1270088E8DC /* keyboard-handling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA961A025E6C12A0088E8DC /* Build configuration list for PBXNativeTarget "keyboard-handling" */;
+			buildPhases = (
+				DCA9618825E6C1270088E8DC /* Sources */,
+				DCA9618925E6C1270088E8DC /* Frameworks */,
+				DCA9618A25E6C1270088E8DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "keyboard-handling";
+			productName = "keyboard-handling";
+			productReference = DCA9618C25E6C1270088E8DC /* keyboard-handling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA9618425E6C1270088E8DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DCA9618B25E6C1270088E8DC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DCA9618725E6C1270088E8DC /* Build configuration list for PBXProject "keyboard-handling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA9618325E6C1270088E8DC;
+			productRefGroup = DCA9618D25E6C1270088E8DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA9618B25E6C1270088E8DC /* keyboard-handling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA9618A25E6C1270088E8DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA9619C25E6C12A0088E8DC /* LaunchScreen.storyboard in Resources */,
+				DCA9619925E6C12A0088E8DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA9618825E6C1270088E8DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA961B125E6C2490088E8DC /* TextViewCell.swift in Sources */,
+				DCA961AF25E6C2490088E8DC /* KeyboardHandler2.swift in Sources */,
+				DCA961BC25E6C37E0088E8DC /* UIResponder+Extension.swift in Sources */,
+				DCA961AC25E6C2490088E8DC /* VC3.swift in Sources */,
+				DCA961AD25E6C2490088E8DC /* VC4.swift in Sources */,
+				DCA961AE25E6C2490088E8DC /* KeyboardHandler1.swift in Sources */,
+				DCA961B325E6C2490088E8DC /* VC1.swift in Sources */,
+				DCA9619025E6C1270088E8DC /* AppDelegate.swift in Sources */,
+				DCA9619225E6C1270088E8DC /* SceneDelegate.swift in Sources */,
+				DCA961B025E6C2490088E8DC /* VC2.swift in Sources */,
+				DCA961B225E6C2490088E8DC /* TextFieldCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCA9619A25E6C12A0088E8DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA9619B25E6C12A0088E8DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA9619E25E6C12A0088E8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA9619F25E6C12A0088E8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA961A125E6C12A0088E8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "keyboard-handling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.ifce.keyboard-handling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCA961A225E6C12A0088E8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "keyboard-handling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.ifce.keyboard-handling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA9618725E6C1270088E8DC /* Build configuration list for PBXProject "keyboard-handling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA9619E25E6C12A0088E8DC /* Debug */,
+				DCA9619F25E6C12A0088E8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA961A025E6C12A0088E8DC /* Build configuration list for PBXNativeTarget "keyboard-handling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA961A125E6C12A0088E8DC /* Debug */,
+				DCA961A225E6C12A0088E8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA9618425E6C1270088E8DC /* Project object */;
+}
